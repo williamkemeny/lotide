@@ -11,6 +11,7 @@ const countLetters = function (string) {
 
   for (let i = 0; i < string.length; i++) {
     if (string[i] === " ") {
+      // nothing
     } else if (letterCount[string[i]] === undefined) {
       letterCount[string[i]] = 1;
     } else {
