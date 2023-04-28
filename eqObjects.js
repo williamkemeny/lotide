@@ -29,7 +29,7 @@ const eqObjects = function (object1, object2) {
         return false;
       }
     } else if (
-      object2Keys.includes(key) === false &&
+      object2Keys.includes(key) === false ||
       object1[key] !== object2[key]
     ) {
       return false;
