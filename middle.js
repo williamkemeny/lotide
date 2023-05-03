@@ -9,11 +9,7 @@ const eqArrays = function () {
   }
   return true;
 };
-
-const assertArraysEqual = (a, b) =>
-  console.log(
-    `We can say that the inputs ${a} and ${b} being equal is ${eqArrays(a, b)}.`
-  );
+// const assertArraysEqual = require("./assertArraysEqual");
 
 const middle = function (array) {
   let middle = 0;
@@ -29,5 +25,7 @@ const middle = function (array) {
   }
 };
 
-console.log(middle([1, 2])); // => [2]
-console.log(middle([1, 2, 3, 4, 5])); // => [3]
+// console.log(middle([1, 2])); // => [2]
+// console.log(middle([1, 2, 3, 4, 5])); // => [3]
+
+module.exports = middle;

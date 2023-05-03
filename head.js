@@ -1,10 +1,4 @@
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`✅Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+//const assertEqual = require("./assertEqual");
 
 const head = function () {
   if (arguments[0] === undefined) {
@@ -13,3 +7,5 @@ const head = function () {
     return arguments[0][0];
   }
 };
+
+module.exports = head;
