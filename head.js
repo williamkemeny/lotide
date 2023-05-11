@@ -1,5 +1,3 @@
-//const assertEqual = require("./assertEqual");
-
 const head = function () {
   if (arguments[0] === undefined) {
     return undefined;

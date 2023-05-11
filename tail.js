@@ -3,7 +3,8 @@ const tail = function () {
     return [];
   } else {
     let tail = arguments[0].map((x) => x);
-    return tail.shift();
+    tail.shift();
+    return tail;
   }
 };
 
