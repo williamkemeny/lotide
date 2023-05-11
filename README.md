@@ -12,11 +12,11 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Install it:**
 
-`npm install williamkemeny/lotide`
+`npm install @williamkemeny/lotide`
 
 **Require it:**
 
-`const _ = require('williamkemeny/lotide');`
+`const _ = require('@williamkemeny/lotide');`
 
 **Call it:**
 
@@ -26,6 +26,6 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1(...)`: description
-* `function2(...)`: description
-* `function3(...)`: description
+* `assertArraysEqual`: description
+* `AssertEqual`: description
+* `assertObjectsEqual`: description
