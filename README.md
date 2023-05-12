@@ -1,6 +1,6 @@
 # Lotide
 
-A mini clone of the [Lodash](https://lodash.com) library.
+A mini clone of the [Lodash](https://lodash.com) library. The NPM download can be found here https://www.npmjs.com/package/@wkemeny/lotide 
 
 ## Purpose
 
