@@ -1,5 +1,5 @@
 const countOnly = function (allItems, itemsToCount) {
-  let nameCount = {};
+  const nameCount = {};
   let count = 0;
   for (let name in itemsToCount) {
     if (itemsToCount[name] === true) {

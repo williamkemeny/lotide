@@ -1,5 +1,5 @@
 const countLetters = function (string) {
-  let letterCount = {};
+  const letterCount = {};
 
   for (let i = 0; i < string.length; i++) {
     if (string[i] === " ") {
