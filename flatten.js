@@ -1,7 +1,3 @@
-//const eqArrays = require("./eqArrays");
-
-//const assertArraysEqual = require("./assertArraysEqual");
-
 const flatten = function (array) {
   let newArray = [];
   for (let index1 = 0; index1 < array.length; index1++) {
@@ -15,9 +11,5 @@ const flatten = function (array) {
   }
   return newArray;
 };
-
-// let test = [1, 2, [3, 4], 5, [6]];
-// console.log(flatten(test));
-// console.log(Array.isArray(test[2]));
 
 module.exports = flatten;

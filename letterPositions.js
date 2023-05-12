@@ -1,5 +1,3 @@
-// const assertArraysEqual = require("./assertArraysEqual");
-
 const letterPositions = function (string) {
   let letterPositionObj = {};
 
@@ -15,7 +13,5 @@ const letterPositions = function (string) {
 
   return letterPositionObj;
 };
-
-// assertArraysEqual(letterPositions("hello").e, [1]); checking if e has 1
 
 module.exports = letterPositions;
